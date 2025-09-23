@@ -1,5 +1,6 @@
 # Vigenère Cipher
 
+A simple Python implementation of the Vigenère cipher with CLI, Tkinter GUI, and pytest tests.
 ## Setup
 ```bash
 git clone https://github.com/rowkav09/Vigenere_cypher.git
