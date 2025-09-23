@@ -4,13 +4,12 @@
 ```bash
 git clone https://github.com/rowkav09/Vigenere_cypher.git
 cd Vigenere_cypher
-pip install -r requirements.txt
 ```
 
 ## Usage
 ```bash
-python vigenere.py      # CLI
-python gui.py           # GUI
+python vigenere.py      
+python gui.py           
 ```
 
 ## Tests
@@ -20,9 +19,11 @@ pytest
 
 ## Structure
 ```
-vigenere.py       # Cipher logic
-gui.py            # Tkinter GUI
-test_vigenere.py  # Tests
-requirements.txt  # Dependencies
-README.md         # Documentation
-```
+Vigenere_cypher/
+│
+├── .gitignore
+├── vigenere.py
+├── gui.py           
+├── test_vigenere.py
+└── README.md         
+
